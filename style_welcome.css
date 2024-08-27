@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    background-size: contain;
+    background-image: url(images/welcomepage.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-color: rgb(236, 231, 222);
+}
+.btn_welcome
+{
+    background-color:rgba(0, 0, 0, 0.744);
+    text-align: center;
+    font-size: 25px;
+   
+    
+}
+.content
+{
+    text-align: end;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color:  rgb(236, 231, 222);
+
+}
+.btn_welcome:hover{
+color: black;;
+}
+
+.btn_welcome:hover{
+    background-color: transparent;
+}
+a:hover{
+    color:black;
+}

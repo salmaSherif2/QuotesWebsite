@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="header vh-100 ">
+        <div class="content p-5 text-center m-auto ">
+            <form action="#" method="get" class="w-50 shadow-sm rounded-3 text-center p-3 " onsubmit="return fnamevalidation()" onreset="return fnameRe()">
+                <h1 class="text-center pb-2 ">Sign Up</h1>
+
+                <!-- firstName -->
+                <label for="fname">First Name:</label>
+                <input type="text" placeholder="Enter Your First Name " value="" id="fname"  name="firstName: ">
+                <p id="spnfname" class="d-block"></p>
+                <!-- LastName -->
+                <label for="lname">Last Name:</label>
+                <input type="text" placeholder="Enter Your Last Name " value="" id="lname"  name="lastName: ">
+                <p id="spnlname" class="d-block"></p>
+                <!-- password -->
+                <label for="pwduser">password:</label>
+                <input type="password" name="PasswordUser" id="pwduser" value="" placeholder="Enter your password">
+                <p id="spnpassword"></p>
+                <!-- confirm Password -->
+                <label for="conpwd">Confirm Password: </label>
+                <input type="password" name="confirmPassword" id="conpwd" placeholder="Enter the Password again" value="">
+                <p id="spnconpwd"></p>
+                <!-- email -->
+                <label for="email">Email: </label>
+                <input type="text" value="" placeholder="Enter Your Email " id="email" name="Email">
+                <p id="spnemail"></p>
+                <!-- phone -->
+                <label for="phone">Phone: </label>
+                <input type="text" value="" placeholder="Enter Your Phone " id="phone" name="phone">
+                <p id="spnphone"></p>
+                
+                
+                 
+
+
+
+
+
+
+
+
+<div class="buttons ">
+    <input type="submit" value="Submit" class="mt-5 btn-submit"/>
+    <input type="reset" value="reset" class="mt-2 btn-reset  "/>
+
+
+    <!-- <button type="submit">Submit</button> -->
+
+</div>
+              <p class="mt-5 fw-bold">if you have already account <a target="_blank" href="login.html">Log In</a></p> 
+            </form>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

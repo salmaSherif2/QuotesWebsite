@@ -1,0 +1,46 @@
+
+/* logIn */
+.header-login
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header
+{
+    background-image: url(images/loginImage.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(220, 119, 106, 0.56);
+  
+}
+.username-login
+{
+    font-size: 27px;
+
+}
+.input-user
+{
+    width: 35%;
+}
+
+input{
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px 5px;
+    width: 50%;
+}
+.btn-login
+{
+    margin-top: 10rem;
+    position: absolute;
+    bottom: 15%;
+}
+.btn-log-form
+{
+    font-size: 25px;
+    border-radius: 25px;
+    color: rgb(20, 123, 187);
+}
